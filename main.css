@@ -1,0 +1,122 @@
+body {
+	font-family: arial,sans-serif;
+}
+ header {
+	padding: 0;
+
+}
+header li {
+	display: inline;
+
+}
+header li a {
+	float: right;
+	padding: 5px;
+	font-size: small;
+	opacity: .75;
+	color: #000;
+	vertical-align: middle;
+	text-decoration: none;
+}
+.apps {
+	background-image: url("app.png");
+	background-position: -132px -38px;
+	width: 30px;
+	height: 30px;
+	float: right;
+	cursor: pointer;
+}
+.notification {
+	background-image: url("app.png");
+	width: 30px;
+	height: 30px;
+	float: right;
+	cursor: pointer;
+}
+.my-image {
+	background-image: url("my_pic.jpg");
+	width: 30px;
+	height: 30px;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	float: right;
+	cursor: pointer;
+}
+.glogo {
+	position: absolute;
+	top: 196px;
+	left: 520px;
+	margin-top: auto;
+}
+
+input[type=text]{
+width: 588px;
+height: 34px;
+font-weight: bold;
+font-size: 15px;
+background-image: url("microphone.png");
+background-position: right;
+background-repeat: no-repeat;
+vertical-align: middle;
+background-size: 24px 24px;
+border: 1px solid #d9d9d9;
+padding: 0 0 0 5px;
+}
+.search {
+	position: absolute;
+  	left: 358px;
+	top: 311px;
+  	margin-top: 5px;
+}
+
+center {
+	position: absolute;
+	left: 510px;
+}
+input[type="submit"] {
+	height: 36px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-size: 13px;	
+	font-weight: bold;
+	margin: 11px 4px;
+	padding: 0 16px;
+  	margin-top: 335px;
+}
+footer {
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	min-width: 100%;
+	bottom: 0;
+	position: absolute;
+	font-size: small;
+	margin-left: -8px;
+}
+footer a {
+	color: #666;
+	text-decoration: none;
+	white-space: nowrape;
+}
+a:visted {
+	color: #609;
+}
+.footer-left {
+	float: left;
+}
+footer ul {
+	padding: 0 0 0 20px;
+}
+li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.footer-right {
+	float: right;
+	margin-right: 20px;
+}
