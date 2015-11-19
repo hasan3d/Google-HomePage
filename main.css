@@ -71,7 +71,7 @@ padding: 0 0 0 5px;
   	margin-top: 5px;
 }
 
-center {
+.input-submit {
 	position: absolute;
 	left: 510px;
 }
@@ -100,7 +100,7 @@ footer {
 footer a {
 	color: #666;
 	text-decoration: none;
-	white-space: nowrape;
+	white-space: nowrap;
 }
 a:visted {
 	color: #609;
