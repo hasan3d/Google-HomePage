@@ -1,1 +1,1 @@
-This is a sample project to build a clone of google homepage.
+This is a clone of google home page created from complete scratch. [By Hasan Ahmed](http://www.hasanme.com)
